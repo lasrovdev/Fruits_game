@@ -1,0 +1,26 @@
+body {
+    font-size: 15pt;
+    background: burlywood;
+    margin:0;
+    user-select: none
+}
+svg{
+  width:100vw;
+  height:100vh;
+  
+  display: block;
+  position: absolute;
+  top:0;
+}
+h3{
+  margin:0;
+  
+  position: absolute;
+  right:20px;
+  top:10px;
+  
+  z-index:500;
+}
+h3:nth-child(2){
+  right:170px;
+}
